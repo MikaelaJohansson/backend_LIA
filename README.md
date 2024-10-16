@@ -1,6 +1,6 @@
 # React + Vite
 
-# LIA App Frontend
+# backend_LIA
 
 Detta projekt är ett frontend-projekt byggt med React och Vite. Här är en snabb överblick över hur du kommer igång med projektet.
 
