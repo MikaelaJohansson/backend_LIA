@@ -30,8 +30,8 @@ curl -X PUT http://localhost:3000/api/user/uuid som du skapade -H 'Content-Type:
 curl -X DELETE http://localhost:3000/api/user/uuid som du skapade
 ```
 
-### Installation och setup
-Du kan ser resultat av get http://localhost:3000/api/user
+Example av Resultat
+Du kan ser resultat av get all users-> http://localhost:3000/api/user
 som nedan
 [
     {
