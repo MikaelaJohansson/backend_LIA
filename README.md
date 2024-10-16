@@ -28,3 +28,13 @@ curl -X GET http://localhost:3000/api/user
 curl -X GET http://localhost:3000/api/user/uuid som du skapade
 curl -X PUT http://localhost:3000/api/user/uuid som du skapade -H 'Content-Type: application/json' -d '{"name":"newName","password":"pw"}'
 curl -X DELETE http://localhost:3000/api/user/uuid som du skapade
+
+Du kan ser resultat av get http://localhost:3000/api/user
+som nedan
+[
+    {
+        "id": "ab214776-8d05-4ebd-8a25-0d9271631b44",
+        "name": "mi",
+        "password": "1234"
+    }
+]
