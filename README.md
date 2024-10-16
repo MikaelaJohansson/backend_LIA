@@ -30,9 +30,13 @@ curl -X PUT http://localhost:3000/api/user/uuid som du skapade -H 'Content-Type:
 curl -X DELETE http://localhost:3000/api/user/uuid som du skapade
 ```
 
-Example av Resultat
-Du kan ser resultat av get all users-> http://localhost:3000/api/user
-som nedan
+### Example av Resultat
+
+Du kan se resultat av get all users -> [http://localhost:3000/api/user](http://localhost:3000/api/user)
+
+som nedan:
+
+```json
 [
     {
         "id": "ab214776-8d05-4ebd-8a25-0d9271631b44",
@@ -40,3 +44,5 @@ som nedan
         "password": "1234"
     }
 ]
+
+
