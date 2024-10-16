@@ -21,15 +21,16 @@ Följ dessa steg för att snabbt komma igång med utveckling av detta projekt:
 3. Starta utvecklingsservern:
    npm run dev
 
-### Start a backend (bash1-starta backend, bash2-testa kommand)
+### **Start a backend (bash1-starta backend, bash2-testa kommand)**
   ```bash
 curl -X POST http://localhost:3000/api/user -H 'Content-Type: application/json' -d '{"name":"mi","password":"1234"}'
 curl -X GET http://localhost:3000/api/user
 curl -X GET http://localhost:3000/api/user/uuid som du skapade
 curl -X PUT http://localhost:3000/api/user/uuid som du skapade -H 'Content-Type: application/json' -d '{"name":"newName","password":"pw"}'
 curl -X DELETE http://localhost:3000/api/user/uuid som du skapade
+```
 
-#Resultat
+### Installation och setup
 Du kan ser resultat av get http://localhost:3000/api/user
 som nedan
 [
