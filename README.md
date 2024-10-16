@@ -25,6 +25,6 @@ Följ dessa steg för att snabbt komma igång med utveckling av detta projekt:
   ```bash
 curl -X POST http://localhost:3000/api/user -H 'Content-Type: application/json' -d '{"name":"name","password":"pw"}'
 curl -X GET http://localhost:3000/api/user
-curl -X GET http://localhost:3000/api/user/1
+curl -X GET http://localhost:3000/api/user/uuid som du skapade
 curl -X PUT http://localhost:3000/api/user/1 -H 'Content-Type: application/json' -d '{"name":"newName","password":"pw"}'
-curl -X DELETE http://localhost:3000/api/user/1
+curl -X DELETE http://localhost:3000/api/user/uuid som du skapade
