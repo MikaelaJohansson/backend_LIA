@@ -23,7 +23,7 @@ Följ dessa steg för att snabbt komma igång med utveckling av detta projekt:
 
 ### Start a backend (bash1-starta backend, bash2-testa kommand)
   ```bash
-curl -X POST http://localhost:3000/api/user -H 'Content-Type: application/json' -d '{"name":"name","password":"pw"}'
+curl -X POST http://localhost:3000/api/user -H 'Content-Type: application/json' -d '{"name":"mi","password":"1234"}'
 curl -X GET http://localhost:3000/api/user
 curl -X GET http://localhost:3000/api/user/uuid som du skapade
 curl -X PUT http://localhost:3000/api/user/uuid som du skapade -H 'Content-Type: application/json' -d '{"name":"newName","password":"pw"}'
