@@ -2,7 +2,7 @@
 
 # backend_LIA
 
-Detta projekt är ett frontend-projekt byggt med React och Vite. Här är en snabb överblick över hur du kommer igång med projektet.
+Detta projekt är ett backend byggt med React och Vite. Här är en snabb överblick över hur du kommer igång med projektet.
 
 ## Kom igång snabbt (TTFHW)
 
@@ -12,7 +12,7 @@ Följ dessa steg för att snabbt komma igång med utveckling av detta projekt:
 
 1. **Klona repositoryt**:
    ```bash
-   git https://github.com/MikaelaJohansson/backend_LIA.git
+   git clone https://github.com/MikaelaJohansson/backend_LIA.git
    cd backend_LIA
 
 2. Installera beroenden:
